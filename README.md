@@ -22,4 +22,4 @@ This is a one-page personal about me website built using HTML and CSS. It is a s
 
 ## Demo
 
-You can see the live portfolio by clicking [`here`](https://mayakaconard.github.io/my-portfolio/)
+You can see the live portfolio by clicking [`https://mayakaconard.github.io/my-portfolio/`](https://mayakaconard.github.io/my-portfolio/)
