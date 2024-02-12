@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+header {
+    background-color: #000447f0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    /* Adjust as needed */
+    transform: translateY(-50%);
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.section {
+    position: relative;
+    padding-top: 100px;
+    /* Adjust as needed */
+    margin-bottom: 50px;
+    /* Add some space between sections */
+    transition: transform 0.3s ease;
+}
+
+
+
+.section:hover {
+    transform: scale(1.05);
+    /* Scale up on hover */
+}
+
+.section h2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Add a background color with opacity */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    /* Smooth transition effect */
+}
+
+.section:hover h2 {
+    background-color: #ff9900;
+    /* Change color on hover */
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #000447f0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
